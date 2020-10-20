@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="72x72" href="./img/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
@@ -29,7 +30,7 @@
         </a>
 
         <!-- --------------------------------Ham burger-------------------------------- -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        <button id="hamburger-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#" style="color: #ff7149 !important;">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
@@ -47,7 +48,7 @@
                     <a class="nav-link" href="#">Our Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="./aboutus.html" >About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
@@ -86,7 +87,7 @@
                             <div class="btn-icon">
                                 <i class="fa fa-trophy"></i>
                             </div>
-                            <div class="btn-text">VIEW ABOUT US</div>
+                            <div class="btn-text"><a href="./aboutus.html" >VIEW ABOUT US</a></div>
                         </div>
                     </button>
                     <button class="carousel-btn animate__animated animate__slideInUp ">
@@ -111,12 +112,13 @@
                         who is thought
                         to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
                         book. </p>
+
                     <button class="carousel-btn animate__animated animate__slideInUp ">
                         <div class="button">
                             <div class="btn-icon">
                                 <i class="fa fa-trophy"></i>
                             </div>
-                            <div class="btn-text">VIEW ABOUT US</div>
+                            <div class="btn-text"><a href="./aboutus.html" >VIEW ABOUT US</a></div>
                         </div>
                     </button>
 
@@ -142,16 +144,16 @@
                         who is thought
                         to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
                         book. </p>
-                    <button class="carousel-btn animate__animated animate__slideInUp ">
+                    <button class="carousel-btn animate__animated animate__slideInUp">
                         <div class="button">
                             <div class="btn-icon">
                                 <i class="fa fa-trophy"></i>
                             </div>
-                            <div class="btn-text">VIEW ABOUT US</div>
+                            <div class="btn-text"><a href="./aboutus.html" >VIEW ABOUT US</a></div>
                         </div>
                     </button>
 
-                    <button class="carousel-btn animate__animated animate__slideInUp ">
+                    <button class="carousel-btn animate__animated animate__slideInUp">
                         <div class="button">
                             <div class="btn-text">PURCHASE NOW</div>
                             <div class="btn-icon">
@@ -162,6 +164,8 @@
                 </div>
             </div>
         </div>
+
+        
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>

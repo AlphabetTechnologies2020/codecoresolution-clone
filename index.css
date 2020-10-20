@@ -21,6 +21,10 @@ nav{
     margin-top: -15px;
 }
 
+#hamburger-btn{
+    background-color: white;
+}
+
 /* Carousel */
 .carousel-item{
     height: 100vh;
@@ -81,10 +85,49 @@ nav{
     padding-top: 10px;
 }
 
+a{
+    color: rgba(255, 254, 254, 0.9) !important;
+    text-decoration: none !important;
+}
+
  .btn-text{
     width: 80%;
 } 
 
+/* ================================================== about =================================================== */
+.about-illustration {
+    width:255px;
+    height:300px;
+    border-radius:0 0 0 50px;
+    background-size:cover;
+    background-image:url('img/about-thumbnail.svg')
+}
+.about-content {
+    display:flex;
+}
+.about-content-item {
+    max-width:573px;
+    height:300px;
+    border-radius:0 50px 0 0;
+    cursor:pointer;
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:20px;
+    background-color:  #ff7149;
+}
+
+.about-content-item-area {
+    margin-left:24px;
+    margin-right:42px;
+}
+.about-content-item img {
+    margin-top:40px;
+    margin-left:42px;
+}
+.about-title {
+    margin-top:27px;
+    margin-bottom:10px;
+}
 
 
 
